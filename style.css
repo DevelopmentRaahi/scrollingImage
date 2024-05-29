@@ -6,78 +6,7 @@
     box-sizing: border-box;
 }
 
-.nav-link:hover{
-color: #ffe188 !important;
-}
 
-
-.bottom{
-    border: 1px solid gray;
-}
-.addBorder {
-    border-left: 2px solid red;
-    padding-left: 9px;
-    border-radius: 5px;
-}
-.text-color{
-    color: rgb(240, 10, 114);
-}
-.iconSize {
-    
-    width: 25%;
-    height: 100%;
-}
-.iconSizee{
-     width: 25%;
-    height: 100%;
-    
-}
-
-.card-body {
-    margin-top: -20px !important
-}
-#no-hover:hover{
-    background-color: none !important;
-}
-
-.card:hover{
-    transition: all 0.4s linear 0.1s;
-    background-color: rgb(255, 200, 128);
-}
-.hoverDiff{
-    background-color: rgb(0 45 112);
-    color: white;
-}
-.hoverDiff:hover {
-   background-color: #ffc107;
-   color: rgb(40, 39, 39); 
-}
-.bg-color-head{
-    background-color: rgb(0 45 112);
-    color: aliceblue;
-}
-.bg-color-head  h1{    
-    color: aliceblue !important;
-}
-.bg-color {
-    background-color: rgb(0 45 112);
-    padding: 50px 0 50px 0;
-    color: aliceblue;
-    border-radius: 10px;
-}
-.textAlign{
-    text-align: center;
-    padding:  30px 0 30px 0;    
-}
-@media (max-width:360px) {
-    .textAlign{
-        text-align:left;
-        padding: 20px 0 20px 15px; 
-    }
-}
-.navbar-toggler {
-    background-color: #bcbcbc;
-}
 .main_logo{
     position: relative;
 }
@@ -88,14 +17,13 @@ color: #ffe188 !important;
     overflow: hidden;
     display: flex;
     box-sizing: border-box;
-    background-color: rgba(237, 255, 232, 0.514);
+    background-color: rgba(253, 255, 232, 0.514);
 }
 
 .logo-slide{
   display: inline-block; 
- white-space: nowrap;
-
-  animation: slider 20s linear  infinite  ; 
+  white-space: nowrap;
+  animation: slider 50s linear  infinite  ; 
 }
 
 .logo-slide img{
@@ -103,7 +31,7 @@ color: #ffe188 !important;
  width: 6rem;
  height: auto;
  margin: 0 1rem;
- opacity: .8;
+ opacity: .7;
 }
 .logos::before, .logos::after{
     content: " ";    
