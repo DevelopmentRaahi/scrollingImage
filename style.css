@@ -95,7 +95,7 @@ color: #ffe188 !important;
   display: inline-block; 
  white-space: nowrap;
 
-  animation: slider 20s linear  infinite  ; 
+  animation: slider 50s linear  infinite  ; 
 }
 
 .logo-slide img{
