@@ -23,7 +23,7 @@
 .logo-slide{
   display: inline-block; 
   white-space: nowrap;
-  animation: slider 80s linear  infinite  ; 
+  animation: slider 70s linear  infinite  ; 
 }
 
 .logo-slide img{
