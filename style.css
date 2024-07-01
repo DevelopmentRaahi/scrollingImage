@@ -28,10 +28,10 @@
 
 .logo-slide img{
  display: inline-block;
- width: 6rem;
+ width: 10rem;
  height: auto;
  margin: 0 1rem;
- opacity: .7;
+ opacity: .9;
 }
 .logos::before, .logos::after{
     content: " ";    
@@ -53,13 +53,14 @@
 }
 .logos:hover .logo-slide{
     animation-play-state: paused;
-    opacity: 1;
+    opacity: 1;    
 }
+
 @keyframes slider {
-    100%{
+    0%{
         transform: translateX(10%);             
     }    
-    0%{
+    100%{
         transform: translateX(-90%);
     }    
 }
